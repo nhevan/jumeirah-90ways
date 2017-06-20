@@ -8,7 +8,7 @@ body, html {
 }
 @font-face {
   font-family: 'tfarrowlightregular';
-  src: url('https://www.jumeirah.com/globalassets/documents/flavours/fonts/tfarrowlight-normal-webfont.woff');
+  src: url('../fonts/tfarrowlight-normal-webfont.woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -186,7 +186,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url('https://www.jumeirah.com/globalassets/documents/flavours/img/intro-bg.jpg') no-repeat center top;
+	background: url('../img/intro-bg.jpg') no-repeat center top;
 	background-attachment: fixed;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
@@ -200,8 +200,9 @@ hr {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: linear-gradient(rgba(255,255,255,.75), rgba(255,255,255,.75)), rgba(255,255,255,.75) url(http://www.jumeirah.com/globalassets/global/global-offers/jumeirah-flavours/jumeirah-flavours-tortuga-family-dining-hero.jpg) no-repeat center top;
+	background: linear-gradient(rgba(255,255,255,.75), rgba(255,255,255,.75)), rgba(255,255,255,.75) url(../img/about-bg.jpg) no-repeat center top;
 	background-size: cover;
+	min-height: 550px;
 }
 #about .about-text {
 	margin-left: 10px;
