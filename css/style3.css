@@ -756,6 +756,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     .isotope .isotope-item {
 	    width: 100%;
     }
+    .xperience-title {
+	    line-height: 44px;
+    }
 }
 @media only screen and (max-width: 991px) {
 	.search-area {
