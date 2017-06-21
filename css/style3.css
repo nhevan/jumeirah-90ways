@@ -722,6 +722,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .indulge .hover-bg {
 	border: 6px solid #cdbd82;
 }
+.intro-text {
+	min-height: 800px;
+}
 /* end */
 
 
@@ -759,6 +762,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     .xperience-title {
 	    line-height: 44px;
     }
+    
+    .intro {
+		background: url('../img/bg-mobile.png') no-repeat center top;
+		background-attachment: fixed;
+		background-color: #7bc3d1;
+		-webkit-background-size: 100% 38%;
+		-moz-background-size: 100% 38%;
+		background-size: 100% 38%;
+		-o-background-size: 100% 38%;
+	}
+	.intro-text {
+		min-height: 140px;
+	}
+	.res-title {
+		text-align: center;
+		display: block;
+		float: none;
+	}
 }
 @media only screen and (max-width: 991px) {
 	.search-area {
