@@ -214,11 +214,12 @@ hr {
 	display: inline-block;
 }
 #about p {
-	color: #024283;
+/* 	color: #024283; */
 	margin-top: 20px;
 	margin-bottom: 30px;
 	font-weight: 700;
 	font-size: 20px;
+	letter-spacing: 1px;
 }
 /* Restaurant Section */
 #restaurant {
@@ -702,6 +703,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	bottom: 35px;
 	right: 35px;
 	float: right;
+}
+.family .hover-bg {
+	border: 6px solid #87bdad;
+}
+.dining .hover-bg {
+	border: 6px solid #82c4cd;
+}
+.shopping .hover-bg {
+	border: 6px solid #e1977b;
+}
+.exploring .hover-bg {
+	border: 6px solid #de9e9e;
+}
+.recharge .hover-bg {
+	border: 6px solid #8782cd;
+}
+.indulge .hover-bg {
+	border: 6px solid #cdbd82;
 }
 /* end */
 
